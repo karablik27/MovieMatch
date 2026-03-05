@@ -1,0 +1,41 @@
+{
+  "activityEntities" : [
+    "dataSourceMetrics",
+    [
+      {
+        "createdDate" : "2026-03-05T21:14:38Z",
+        "event" : "dataSourceMetrics",
+        "id" : "E5A84F79-2058-4187-B80F-525330AD6B19",
+        "subtitle" : "2 Classes, 5 000 Items",
+        "title" : "Data Summary"
+      }
+    ],
+    "dataSourceTrainingStarted",
+    [
+      {
+        "createdDate" : "2026-03-05T21:14:38Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "6C7D77D3-2F82-4653-9D76-3C1D5CECA549",
+        "subtitle" : "MovieClass 1",
+        "title" : "Used By"
+      }
+    ]
+  ],
+  "createdDate" : "2026-03-05T21:13:31Z",
+  "dataPathRelativeToProjectURL" : "../../../../Downloads/movie_training_dataset.csv/",
+  "dataResult" : {
+    "createdDate" : "2026-03-05T21:13:31Z",
+    "dataSourceID" : "A51F2924-1AD3-442A-9AC9-44427C865A67",
+    "dataURL" : "file:///Users/verhovnyjmag/Downloads/movie_training_dataset.csv"
+  },
+  "dataURL" : "file:///Users/verhovnyjmag/Downloads/movie_training_dataset.csv",
+  "experimentIDs" : [
+    "00EC34EA-F4AE-473E-B47E-F8E110F6FA9F"
+  ],
+  "id" : "A51F2924-1AD3-442A-9AC9-44427C865A67",
+  "modifiedDate" : "2026-03-05T21:14:38Z",
+  "pathType" : 0,
+  "preferredFilename" : "movie_training_dataset.csv",
+  "title" : "movie_training_dataset.csv",
+  "version" : "1.0"
+}

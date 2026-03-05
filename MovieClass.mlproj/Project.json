@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2026-03-05T21:13:19Z",
+        "event" : "projectCreated",
+        "id" : "58320258-DF17-477A-948A-18A7F0FB772D",
+        "subtitle" : "MovieClass",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "Верховный Маг",
+  "createdDate" : "2026-03-05T21:13:19Z",
+  "description" : "",
+  "id" : "017B4909-6151-4C3E-B5E9-3D28903F3DDF",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2026-03-05T21:13:19Z",
+  "projectName" : "MovieClass",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "generalClassifier",
+  "title" : "Tabular Classification",
+  "version" : "1.1"
+}

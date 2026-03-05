@@ -1,0 +1,22 @@
+{
+  "activityEntities" : [
+
+  ],
+  "createdDate" : "2026-03-05T21:14:35Z",
+  "dataPathRelativeToProjectURL" : "../../../../Downloads/movie_training_dataset_test.csv/",
+  "dataResult" : {
+    "createdDate" : "2026-03-05T21:14:35Z",
+    "dataSourceID" : "C79F3235-C2F4-420E-AC65-D9B4309C26A3",
+    "dataURL" : "file:///Users/verhovnyjmag/Downloads/movie_training_dataset_test.csv"
+  },
+  "dataURL" : "file:///Users/verhovnyjmag/Downloads/movie_training_dataset_test.csv",
+  "experimentIDs" : [
+    "00EC34EA-F4AE-473E-B47E-F8E110F6FA9F"
+  ],
+  "id" : "C79F3235-C2F4-420E-AC65-D9B4309C26A3",
+  "modifiedDate" : "2026-03-05T21:14:35Z",
+  "pathType" : 0,
+  "preferredFilename" : "movie_training_dataset_test.csv",
+  "title" : "movie_training_dataset_test.csv",
+  "version" : "1.0"
+}

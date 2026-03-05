@@ -1,0 +1,610 @@
+{
+  "activityEntities" : [
+    "evaluationStarted",
+    [
+      {
+        "createdDate" : "2026-03-05T21:14:41Z",
+        "event" : "evaluationStarted",
+        "id" : "8D3669F0-D071-44C4-B1DB-26220B39EBBE",
+        "subtitle" : "MovieClass 1",
+        "title" : "Testing Started"
+      }
+    ],
+    "trainingDataAdded",
+    [
+      {
+        "createdDate" : "2026-03-05T21:13:35Z",
+        "event" : "trainingDataAdded",
+        "id" : "560ACB43-B41D-4DED-BB90-7CB020E0DA1F",
+        "subtitle" : "movie_training_dataset.csv",
+        "title" : "Training Data Added"
+      }
+    ],
+    "evaluationFinished",
+    [
+      {
+        "createdDate" : "2026-03-05T21:14:42Z",
+        "event" : "evaluationFinished",
+        "id" : "6D942905-FA3D-4810-A0A2-8E8F28866306",
+        "subtitle" : "MovieClass 1",
+        "title" : "Testing Completed"
+      }
+    ],
+    "evaluationDataAdded",
+    [
+      {
+        "createdDate" : "2026-03-05T21:14:35Z",
+        "event" : "evaluationDataAdded",
+        "id" : "865E839D-EC0F-463D-A7C5-41CC8C4E83C3",
+        "subtitle" : "movie_training_dataset_test.csv",
+        "title" : "Testing Data Added"
+      }
+    ],
+    "trainingFinished",
+    [
+      {
+        "createdDate" : "2026-03-05T21:14:39Z",
+        "event" : "trainingFinished",
+        "id" : "0B26A9E3-6D16-4B9A-A155-0428535866E1",
+        "subtitle" : "10 iterations",
+        "title" : "Training Completed"
+      }
+    ],
+    "experimentCreated",
+    [
+      {
+        "createdDate" : "2026-03-05T21:13:19Z",
+        "event" : "experimentCreated",
+        "id" : "9B423D01-593C-4A3F-9F82-348B7C16641C",
+        "subtitle" : "MovieClass 1",
+        "title" : "Model Source Created"
+      }
+    ],
+    "trainingStarted",
+    [
+      {
+        "createdDate" : "2026-03-05T21:14:38Z",
+        "event" : "trainingStarted",
+        "id" : "AF882969-9621-48F8-B6E0-F4D6EB651EE1",
+        "subtitle" : "MovieClass 1",
+        "title" : "Training Started"
+      }
+    ]
+  ],
+  "contentDataResult" : {
+    "createdDate" : "2026-03-05T21:13:31Z"
+  },
+  "createdDate" : "2026-03-05T21:13:19Z",
+  "evaluationContainerEntity" : {
+    "createdDate" : "2026-03-05T21:14:42Z",
+    "evaluationEntities" : [
+
+    ],
+    "id" : "1a17086a-9136-4d1c-a138-ce04890bcb85",
+    "modifiedDate" : "2026-03-05T21:14:42Z",
+    "previewType" : "tabularClassifier",
+    "testingEvaluationEntity" : {
+      "accuracy" : 0.7429999709129333,
+      "analysedDataType" : "datasource",
+      "createdDate" : "2026-03-05T21:13:19Z",
+      "dataResult" : {
+        "classesCount" : 2,
+        "columnTypes" : [
+          "Int",
+          "Int",
+          "Int",
+          "Double",
+          "Int",
+          "Double",
+          "Int",
+          "Int",
+          "Int",
+          "String"
+        ],
+        "columnValues" : [
+          "1, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0",
+          "0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1",
+          "1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1",
+          "6,80, 6,40, 9,50, 4,20, 4,80, 4,80, 4,50, 7,60, 9,10, 9,10, 7,00, 4,40, 9,00, 9,50, 6,40, 8,10, 4,30, 7,90, 4,80, 8,70, 5,60, 3,50, 8,30, 8,60, 5,00, 4,40, 6,40, 3,70, 7,80, 8,10",
+          "100, 163, 138, 98, 89, 76, 80, 100, 70, 70, 74, 125, 162, 88, 125, 125, 104, 70, 157, 71, 110, 134, 109, 171, 177, 74, 118, 108, 126, 104",
+          "7,70, 6,70, 8,00, 8,20, 8,00, 7,70, 7,80, 8,20, 6,30, 8,10, 6,30, 8,00, 7,20, 8,40, 7,40, 7,10, 7,60, 7,00, 6,40, 8,20, 6,90, 8,40, 7,20, 8,50, 6,90, 7,80, 6,90, 8,30, 6,80, 7,90",
+          "107, 114, 122, 85, 103, 131, 97, 109, 103, 116, 104, 130, 132, 129, 123, 118, 122, 121, 108, 103, 115, 93, 109, 101, 110, 106, 133, 110, 89, 117",
+          "21, 33, 45, 52, 17, 54, 10, 17, 19, 60, 22, 46, 25, 26, 11, 6, 19, 30, 24, 9, 24, 5, 40, 23, 20, 44, 28, 10, 27, 11",
+          "37, 20, 19, 12, 26, 26, 24, 5, 16, 25, 27, 23, 17, 6, 9, 22, 12, 14, 38, 14, 8, 40, 28, 15, 5, 27, 10, 20, 38, 8",
+          "like, like, like, dislike, like, dislike, like, like, like, like, like, like, like, like, dislike, like, dislike, dislike, dislike, dislike, like, dislike, like, like, dislike, like, like, dislike, dislike, like"
+        ],
+        "columns" : [
+          "genre_match",
+          "rating_fit",
+          "runtime_fit",
+          "movie_rating",
+          "movie_runtime",
+          "user_avg_rating",
+          "user_avg_runtime",
+          "liked_count",
+          "disliked_count",
+          "target"
+        ],
+        "createdDate" : "2026-03-05T21:13:31Z",
+        "dataAnalysis" : {
+          "classifierAnalysis" : {
+
+          },
+          "issues" : [
+            {
+              "description" : "Data has 1000 rows",
+              "severity" : "info"
+            }
+          ],
+          "objectDetectorAnalysis" : {
+            "details" : {
+
+            }
+          },
+          "summary" : {
+            "canUseValidation" : 1,
+            "classCount" : 2,
+            "sampleCount" : 1000
+          }
+        },
+        "dataSourceID" : "C79F3235-C2F4-420E-AC65-D9B4309C26A3",
+        "dataURL" : "file:///Users/verhovnyjmag/Downloads/movie_training_dataset_test.csv",
+        "itemsCount" : 1000
+      },
+      "dataSourceID" : "C79F3235-C2F4-420E-AC65-D9B4309C26A3",
+      "evaluationResult" : {
+        "generalClassifier" : {
+          "accuracy" : 0.7429999709129333,
+          "statsByLabel" : {
+            "dislike" : {
+              "count" : 310,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.658682644367218,
+                  "recall" : 0.35483869910240173
+                }
+              }
+            },
+            "like" : {
+              "count" : 690,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.7599039673805237,
+                  "recall" : 0.917391300201416
+                }
+              }
+            }
+          }
+        }
+      },
+      "finishTime" : "2026-03-05T21:14:42Z",
+      "id" : "25ce3e62-b8ea-4bb2-bca6-fe399061f8c1",
+      "startTime" : "2026-03-05T21:14:41Z"
+    },
+    "trainingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-03-05T21:13:19Z",
+      "dataResult" : {
+        "classesCount" : 2,
+        "createdDate" : "2026-03-05T21:13:31Z",
+        "dataAnalysis" : {
+          "classifierAnalysis" : {
+
+          },
+          "issues" : [
+            {
+              "description" : "Data has 5000 rows",
+              "severity" : "info"
+            }
+          ],
+          "objectDetectorAnalysis" : {
+            "details" : {
+
+            }
+          },
+          "summary" : {
+            "canUseValidation" : 1,
+            "classCount" : 2,
+            "sampleCount" : 5000
+          }
+        },
+        "dataSourceID" : "A51F2924-1AD3-442A-9AC9-44427C865A67",
+        "dataURL" : "file:///Users/verhovnyjmag/Downloads/movie_training_dataset.csv",
+        "itemsCount" : 5000
+      },
+      "dataSourceID" : "A51F2924-1AD3-442A-9AC9-44427C865A67",
+      "evaluationResult" : {
+        "generalClassifier" : {
+          "accuracy" : 0.8948888888888888,
+          "confusionMatrix" : [
+            {
+              "actual" : "dislike",
+              "count" : 1174,
+              "expected" : "dislike"
+            },
+            {
+              "actual" : "dislike",
+              "count" : 330,
+              "expected" : "like"
+            },
+            {
+              "actual" : "like",
+              "count" : 143,
+              "expected" : "dislike"
+            },
+            {
+              "actual" : "like",
+              "count" : 2853,
+              "expected" : "like"
+            }
+          ],
+          "statsByLabel" : {
+            "dislike" : {
+              "count" : 1504,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.8914198936977981,
+                  "recall" : 0.7805851063829787
+                }
+              }
+            },
+            "like" : {
+              "count" : 2996,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.8963242224316682,
+                  "recall" : 0.9522696929238985
+                }
+              }
+            }
+          }
+        }
+      },
+      "id" : "c340d6e5-5608-4a14-b96f-491f1a3b0564"
+    },
+    "validationEvaluationEntity" : {
+      "analysedDataType" : "auto",
+      "createdDate" : "2026-03-05T21:13:19Z",
+      "dataResult" : {
+        "createdDate" : "2026-03-05T21:13:31Z"
+      },
+      "evaluationResult" : {
+        "generalClassifier" : {
+          "accuracy" : 0.764,
+          "confusionMatrix" : [
+            {
+              "actual" : "dislike",
+              "count" : 87,
+              "expected" : "dislike"
+            },
+            {
+              "actual" : "dislike",
+              "count" : 73,
+              "expected" : "like"
+            },
+            {
+              "actual" : "like",
+              "count" : 45,
+              "expected" : "dislike"
+            },
+            {
+              "actual" : "like",
+              "count" : 295,
+              "expected" : "like"
+            }
+          ],
+          "statsByLabel" : {
+            "dislike" : {
+              "count" : 160,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.6590909090909091,
+                  "recall" : 0.54375
+                }
+              }
+            },
+            "like" : {
+              "count" : 340,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.8016304347826086,
+                  "recall" : 0.8676470588235294
+                }
+              }
+            }
+          }
+        }
+      },
+      "id" : "8c44ee14-b1d7-4801-8623-3ba14896389e"
+    }
+  },
+  "evaluationEntity" : {
+    "analysedDataType" : "none",
+    "dataResult" : {
+
+    },
+    "id" : "81bd81d4-eb5b-47db-a2aa-aec6789dcf67"
+  },
+  "evaluationState" : "evaluated",
+  "id" : "00EC34EA-F4AE-473E-B47E-F8E110F6FA9F",
+  "modelEntity" : {
+    "createdDate" : "2026-03-05T21:13:19Z",
+    "experimentID" : "00EC34EA-F4AE-473E-B47E-F8E110F6FA9F",
+    "id" : "005CC2CF-FDD8-4E5C-880A-49253DBA3CA5",
+    "modelURL" : "Models/MovieClass%201.mlmodel",
+    "modifiedDate" : "2026-03-05T21:13:19Z",
+    "title" : "",
+    "version" : "1.0"
+  },
+  "modifiedDate" : "2026-03-05T21:14:42Z",
+  "preferredFilename" : "MovieClass 1",
+  "settingEntity" : {
+    "algorithmType" : "maxEnt",
+    "augmentations" : [
+
+    ],
+    "featureNames" : [
+      "genre_match",
+      "rating_fit",
+      "runtime_fit",
+      "movie_rating",
+      "movie_runtime",
+      "user_avg_rating",
+      "user_avg_runtime",
+      "liked_count",
+      "disliked_count"
+    ],
+    "generalClassifierType" : {
+      "randomForestClassifier" : {
+        "columnSubsample" : 0.8,
+        "maxDepth" : 6,
+        "minChildWeight" : 0.1,
+        "minLossReduction" : 0,
+        "rowSubsample" : 0.8
+      }
+    },
+    "handActionClassifierAugmentations" : [
+
+    ],
+    "handPoseClassifierAugmentations" : [
+
+    ],
+    "harVideoAugmentations" : 0,
+    "seedType" : "default",
+    "styleTransferAlgorithmType" : "image",
+    "suggestedColumnTypes" : [
+      "Int",
+      "Int",
+      "Int",
+      "Double",
+      "Int",
+      "Double",
+      "Int",
+      "Int",
+      "Int",
+      "String"
+    ],
+    "suggestedColumnValues" : [
+      "0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1",
+      "0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0",
+      "1, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1",
+      "4,80, 8,30, 7,90, 7,10, 5,10, 5,00, 8,70, 9,50, 8,20, 5,40, 7,30, 4,60, 8,10, 8,90, 3,80, 3,90, 3,80, 9,00, 5,20, 9,60, 3,80, 6,50, 6,80, 5,30, 3,50, 7,80, 6,80, 4,00, 7,70, 6,20",
+      "113, 108, 70, 93, 135, 135, 113, 95, 132, 123, 130, 125, 134, 89, 127, 125, 139, 104, 100, 70, 106, 120, 146, 109, 82, 95, 120, 96, 92, 128",
+      "7,20, 8,00, 8,10, 7,40, 6,90, 8,40, 6,20, 6,70, 7,90, 7,50, 6,30, 8,20, 6,30, 8,00, 8,50, 8,50, 8,60, 7,20, 7,20, 7,30, 7,90, 6,20, 7,80, 8,40, 6,60, 7,60, 8,50, 8,50, 7,80, 7,60",
+      "122, 118, 104, 118, 117, 98, 99, 109, 116, 106, 108, 103, 123, 105, 103, 142, 113, 116, 118, 117, 109, 96, 100, 128, 122, 111, 116, 125, 107, 118",
+      "36, 21, 32, 16, 62, 29, 18, 57, 25, 50, 16, 21, 12, 18, 71, 23, 35, 37, 28, 19, 33, 47, 19, 22, 45, 20, 22, 29, 24, 21",
+      "15, 15, 17, 14, 13, 7, 15, 14, 12, 21, 5, 20, 9, 13, 23, 25, 7, 10, 16, 8, 7, 18, 18, 42, 15, 16, 5, 12, 20, 11",
+      "dislike, like, like, dislike, like, dislike, like, like, like, like, dislike, like, like, like, dislike, dislike, like, like, like, like, like, dislike, dislike, like, dislike, like, dislike, dislike, like, dislike"
+    ],
+    "suggestedColumns" : [
+      "genre_match",
+      "rating_fit",
+      "runtime_fit",
+      "movie_rating",
+      "movie_runtime",
+      "user_avg_rating",
+      "user_avg_runtime",
+      "liked_count",
+      "disliked_count",
+      "target"
+    ],
+    "targetColumn" : "target",
+    "taskType" : "generalClassifier",
+    "transferLearningEmbeddingType" : "dynamic"
+  },
+  "snapshotRole" : {
+    "withoutSnapshots" : 0
+  },
+  "state" : "trained",
+  "title" : "MovieClass 1",
+  "trainingEntity" : {
+    "analysedDataType" : "datasource",
+    "checkpointMetrics" : {
+
+    },
+    "dataResult" : {
+      "classesCount" : 2,
+      "columnTypes" : [
+        "Int",
+        "Int",
+        "Int",
+        "Double",
+        "Int",
+        "Double",
+        "Int",
+        "Int",
+        "Int",
+        "String"
+      ],
+      "columnValues" : [
+        "0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1",
+        "0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0",
+        "1, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1",
+        "4,80, 8,30, 7,90, 7,10, 5,10, 5,00, 8,70, 9,50, 8,20, 5,40, 7,30, 4,60, 8,10, 8,90, 3,80, 3,90, 3,80, 9,00, 5,20, 9,60, 3,80, 6,50, 6,80, 5,30, 3,50, 7,80, 6,80, 4,00, 7,70, 6,20",
+        "113, 108, 70, 93, 135, 135, 113, 95, 132, 123, 130, 125, 134, 89, 127, 125, 139, 104, 100, 70, 106, 120, 146, 109, 82, 95, 120, 96, 92, 128",
+        "7,20, 8,00, 8,10, 7,40, 6,90, 8,40, 6,20, 6,70, 7,90, 7,50, 6,30, 8,20, 6,30, 8,00, 8,50, 8,50, 8,60, 7,20, 7,20, 7,30, 7,90, 6,20, 7,80, 8,40, 6,60, 7,60, 8,50, 8,50, 7,80, 7,60",
+        "122, 118, 104, 118, 117, 98, 99, 109, 116, 106, 108, 103, 123, 105, 103, 142, 113, 116, 118, 117, 109, 96, 100, 128, 122, 111, 116, 125, 107, 118",
+        "36, 21, 32, 16, 62, 29, 18, 57, 25, 50, 16, 21, 12, 18, 71, 23, 35, 37, 28, 19, 33, 47, 19, 22, 45, 20, 22, 29, 24, 21",
+        "15, 15, 17, 14, 13, 7, 15, 14, 12, 21, 5, 20, 9, 13, 23, 25, 7, 10, 16, 8, 7, 18, 18, 42, 15, 16, 5, 12, 20, 11",
+        "dislike, like, like, dislike, like, dislike, like, like, like, like, dislike, like, like, like, dislike, dislike, like, like, like, like, like, dislike, dislike, like, dislike, like, dislike, dislike, like, dislike"
+      ],
+      "columns" : [
+        "genre_match",
+        "rating_fit",
+        "runtime_fit",
+        "movie_rating",
+        "movie_runtime",
+        "user_avg_rating",
+        "user_avg_runtime",
+        "liked_count",
+        "disliked_count",
+        "target"
+      ],
+      "createdDate" : "2026-03-05T21:13:31Z",
+      "dataAnalysis" : {
+        "classifierAnalysis" : {
+
+        },
+        "issues" : [
+          {
+            "description" : "Data has 5000 rows",
+            "severity" : "info"
+          }
+        ],
+        "objectDetectorAnalysis" : {
+          "details" : {
+
+          }
+        },
+        "summary" : {
+          "canUseValidation" : 1,
+          "classCount" : 2,
+          "sampleCount" : 5000
+        }
+      },
+      "dataSourceID" : "A51F2924-1AD3-442A-9AC9-44427C865A67",
+      "dataURL" : "file:///Users/verhovnyjmag/Downloads/movie_training_dataset.csv",
+      "itemsCount" : 5000
+    },
+    "dataSourceID" : "A51F2924-1AD3-442A-9AC9-44427C865A67",
+    "featureExtractionCheckpointMayBeAvailable" : false,
+    "finishTime" : "2026-03-05T21:14:39Z",
+    "progress" : [
+
+    ],
+    "snapshottableCheckpoints" : {
+
+    },
+    "startTime" : "2026-03-05T21:14:38Z",
+    "trainingAccuracy" : 0.8948888888888888,
+    "trainingResults" : {
+      "generalClassifier" : {
+        "accuracy" : 0.8948888888888888,
+        "confusionMatrix" : [
+          {
+            "actual" : "dislike",
+            "count" : 1174,
+            "expected" : "dislike"
+          },
+          {
+            "actual" : "dislike",
+            "count" : 330,
+            "expected" : "like"
+          },
+          {
+            "actual" : "like",
+            "count" : 143,
+            "expected" : "dislike"
+          },
+          {
+            "actual" : "like",
+            "count" : 2853,
+            "expected" : "like"
+          }
+        ],
+        "statsByLabel" : {
+          "dislike" : {
+            "count" : 1504,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 0.8914198936977981,
+                "recall" : 0.7805851063829787
+              }
+            }
+          },
+          "like" : {
+            "count" : 2996,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 0.8963242224316682,
+                "recall" : 0.9522696929238985
+              }
+            }
+          }
+        }
+      }
+    },
+    "validationAccuracy" : 0.764,
+    "validationResults" : {
+      "generalClassifier" : {
+        "accuracy" : 0.764,
+        "confusionMatrix" : [
+          {
+            "actual" : "dislike",
+            "count" : 87,
+            "expected" : "dislike"
+          },
+          {
+            "actual" : "dislike",
+            "count" : 73,
+            "expected" : "like"
+          },
+          {
+            "actual" : "like",
+            "count" : 45,
+            "expected" : "dislike"
+          },
+          {
+            "actual" : "like",
+            "count" : 295,
+            "expected" : "like"
+          }
+        ],
+        "statsByLabel" : {
+          "dislike" : {
+            "count" : 160,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 0.6590909090909091,
+                "recall" : 0.54375
+              }
+            }
+          },
+          "like" : {
+            "count" : 340,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 0.8016304347826086,
+                "recall" : 0.8676470588235294
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "validationEntity" : {
+    "analysedDataType" : "auto",
+    "dataResult" : {
+      "createdDate" : "2026-03-05T21:13:31Z"
+    },
+    "splitOptions" : {
+      "strategy" : {
+        "automatic" : {
+
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
