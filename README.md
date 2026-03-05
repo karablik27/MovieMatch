@@ -88,20 +88,6 @@ MovieMatch/
 2. Проверь/заполни TMDB ключи в `MovieMatch/Network/TMDBConfiguration.swift`.
 3. Запусти схему `MovieMatch` на симуляторе или устройстве.
 
-Пример CLI сборки:
-
-```bash
-xcodebuild -project MovieMatch.xcodeproj \
-  -scheme MovieMatch \
-  -destination 'generic/platform=iOS' \
-  CODE_SIGNING_ALLOWED=NO build
-```
-
-## Важно по безопасности
-
-TMDB ключи нельзя хранить в публичном репозитории.
-Если ключи были засвечены, перевыпусти их в TMDB и обнови локальную конфигурацию.
-
 ## Демо-сценарий
 
 1. Пользователь свайпает 10 фильмов в онбординге.
